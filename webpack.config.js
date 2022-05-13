@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = env => {
-    const mode = env.mode ?? "development";
+    const mode = "production";
 
     return {
         mode: mode,
